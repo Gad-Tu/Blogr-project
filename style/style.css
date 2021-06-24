@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  background-image: url("../images/bg-pattern-intro.svg"), linear-gradient(135deg, #ff8f70, #ff3d54);
+  background-size: 350%, 100%;
+  background-position: 35% 34%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  border-bottom-left-radius: 100px;
+  padding: 5.7rem 2.5rem 0 2.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  height: 3.3rem;
+}
+
+.hero-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 11rem;
+}
+.hero-text-wrapper h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
+.hero-text-wrapper h1 span {
+  display: block;
+}
+.hero-text-wrapper h2 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 1.3rem;
+  font-size: 1.8rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin-top: 4.5rem;
+}
+
+.btn {
+  height: 4.8rem;
+  width: 13.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  border-radius: 5rem;
+}
+
+.btn-primary {
+  background: white;
+  color: #ff525d;
+}
+.btn-primary:hover {
+  background: #ff7a85;
+}
+.btn-primary:hover div :not(:hover) {
+  color: white;
+}
+.btn-primary:hover div:hover {
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  color: white;
+}
+.btn-secondary:hover {
+  background: white;
+}
+.btn-secondary:hover div:not(:hover) {
+  color: #ff7a85;
+}
+
+div:hover {
+  color: #ff7a85;
+}
+
+.sections {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.2rem 2.5rem 0 2.5rem;
+}
+.sections h2 {
+  color: #1f3f5b;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-editor {
+  margin-bottom: 4rem;
+  margin-top: 7.8rem;
+  width: 100%;
+  transform: scale(1.25);
+}
+
+.text-block {
+  border: 1px solid black;
+  text-align: center;
+}
+.text-block h3 {
+  color: #1f3f5b;
+  font-size: 2.8rem;
+  margin-top: 4.2rem;
+  line-height: 3.2rem;
+}
+.text-block h3 span {
+  display: block;
+}
+.text-block p {
+  margin-top: 2.5rem;
+  font-size: 1.7rem;
+  color: #4b5862;
+  line-height: 2.8rem;
+}
+
+.img-laptop {
+  margin-bottom: 6rem;
+  margin-top: 7.8rem;
+  width: 100%;
+  transform: scale(1.52);
+}
+
+.empty {
+  border: 1px solid magenta;
+  width: 100%;
+  position: relative;
+  height: 25rem;
+}
+
+.img-phones {
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 383px;
+  margin-top: 7.8rem;
+}
+
+.middle {
+  border: 1px solid green;
+  height: 620px;
+  background-image: url("../images/bg-pattern-circles.svg") linear-gradient(#2c2d3f, #3f4164);
+  background-size: 163%, 100%;
+  background-position: 50% 50%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.text-block-phones {
+  text-align: center;
+  width: 98%;
+}
+.text-block-phones h3 {
+  color: white;
+  font-size: 4rem;
+  margin-top: 1.4rem;
+  line-height: 5rem;
+}
+.text-block-phones p {
+  margin-top: 1.9rem;
+  font-size: 1.7rem;
+  color: white;
+  line-height: 2.8rem;
+}
+
+.sections-laptop {
+  padding: 5rem 2.5rem 0 2.5rem;
+}
+
+.footer {
+  background-color: #25252d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  border-top-left-radius: 100px;
+}
+.footer img {
+  margin-bottom: 3.6rem;
+}
+.footer h4 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+.footer a {
+  color: #c8c8cb;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+}
+
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
