@@ -1,0 +1,112 @@
+.sections{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10.2rem 2.5rem 0 2.5rem;
+
+    h2{
+        color: $headings;
+        font-size: 2.6rem;
+        font-weight: 600;
+
+    }
+
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+}
+.img-editor{
+    //border: 1px solid red;
+    margin-bottom: 4rem;
+    margin-top: 7.8rem;
+    width: 100%;
+    transform: scale(1.25);
+
+}
+.text-block{
+    border: 1px solid black;
+    text-align: center;
+
+    h3{
+        color: $headings;
+        font-size: 2.8rem;
+        margin-top: 4.2rem;
+        line-height: 3.2rem;
+        span{
+            display: block;
+
+        }
+    }
+    p{
+        margin-top: 2.5rem;
+        font-size: 1.7rem;
+        color: $text-blue;
+        line-height: 2.8rem;
+    }
+}
+
+.img-laptop{
+    //border: 1px solid red;
+    margin-bottom: 6rem;
+    margin-top: 7.8rem;
+    width: 100%;
+    transform: scale(1.52);
+}
+
+.empty{
+    border: 1px solid magenta;
+    width: 100%;
+    position: relative;
+    height: 25rem;
+}
+.img-phones{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    width: 383px;
+    margin-top: 7.8rem;
+
+}
+.middle{
+    border: 1px solid green;
+    height: 620px;
+    background-image:url("../images/bg-pattern-circles.svg") linear-gradient($gradient-3, $gradient-4);
+    background-size: 163%, 100%;
+    background-position: 50% 50%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+.text-block-phones{
+    //border: 1px solid black;
+    text-align: center;
+    width: 98%;
+
+
+    h3{
+        color: $text-white;
+        font-size: 4rem;
+        margin-top: 1.4rem;
+        line-height: 5rem;
+    }
+    p{
+        margin-top: 1.9rem;
+        font-size: 1.7rem;
+        color: $text-white;
+        line-height: 2.8rem;
+    }
+}
+.sections-laptop{
+    padding: 5.0rem 2.5rem 0 2.5rem;
+
+}
